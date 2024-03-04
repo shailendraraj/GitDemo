@@ -34,4 +34,14 @@ public class AppTest
     {
         assertTrue( true );
     }
+    
+    public void shouldAnswerWithTrue1()
+    {
+        assertTrue( true );
+    }
+    
+    public void shouldAnswerWithTrue3()
+    {
+        assertTrue( true );
+    }
 }
