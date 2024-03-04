@@ -75,6 +75,8 @@ public class submitOrderTest extends BaseTest {
 		File file = new File(System.getProperty("user.dir")+ "//reports//" + testCaseName + ".png");
 		FileUtils.copyFile(source, file);
 		return System.getProperty("user.dir")+ "//reports//" + testCaseName + ".png" ;
+		//return System.getProperty("user.dir")+ "//reports//" + testCaseName + ".png" ;
+		//return System.getProperty("user.dir")+ "//reports//" + testCaseName + ".png" ;
 	}
 	
 	// extend reports--
