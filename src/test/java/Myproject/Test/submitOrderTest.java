@@ -93,6 +93,11 @@ public class submitOrderTest extends BaseTest {
 //		map1.put("password", "Jha@1234");
 //		map1.put("product_name", "ADIDAS ORIGINAL");
 		
+//		HashMap <String,String> map1 = new HashMap<String,String>();
+//		map1.put("email", "shetty1234@gmail.com");
+//		map1.put("password", "Jha@1234");
+//		map1.put("product_name", "ADIDAS ORIGINAL");
+		
 		List<HashMap<String , String >> data = getjsonDataToMap(System.getProperty("user.dir")+ "//src//test//java//Myproject//data//PurchaseOrder.json");
 		return new Object[] [] {{data.get(0)},{data.get(1)}};
 		
